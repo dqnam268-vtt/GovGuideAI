@@ -1,0 +1,41 @@
+{
+    "thu_tuc": "Nhóm thủ tục Đăng ký kết hôn và các nghiệp vụ liên quan",
+    "intents": [
+        {
+            "keywords": ["trong nước", "bình thường", "thủ tục đăng ký kết hôn", "người việt nam", "giấy tờ", "hồ sơ", "cần gì"],
+            "response": "Trường hợp ĐĂNG KÝ KẾT HÔN TRONG NƯỚC: Thời hạn giải quyết là 1 ngày[cite: 17]. Thủ tục này được miễn lệ phí[cite: 17]. Bạn cần chuẩn bị:\n1. Tờ khai đăng ký kết hôn[cite: 17].\n2. Xuất trình Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước[cite: 17].\n3. Giấy tờ chứng minh thông tin về cư trú (trong trường hợp cơ quan không thể khai thác được trên hệ thống)[cite: 17]."
+        },
+        {
+            "keywords": ["đăng ký lại", "mất giấy kết hôn", "mất bản gốc", "làm lại giấy", "rách", "thất lạc", "cấp lại"],
+            "response": "Trường hợp ĐĂNG KÝ LẠI KẾT HÔN (Bao gồm trong nước và có yếu tố nước ngoài): Thời hạn giải quyết thủ tục này là 5 ngày[cite: 18, 19]. Thủ tục được miễn lệ phí[cite: 18, 19]. Hồ sơ bao gồm:\n1. Tờ khai đăng ký lại kết hôn[cite: 18, 19].\n2. Bản sao Giấy chứng nhận kết hôn được cấp trước đây, hoặc bản sao hồ sơ, giấy tờ cá nhân có các thông tin liên quan đến nội dung đăng ký kết hôn (nếu không có bản sao Giấy chứng nhận kết hôn)[cite: 18, 19].\n3. Xuất trình giấy tờ tùy thân và giấy tờ chứng minh nơi cư trú[cite: 18, 19]."
+        },
+        {
+            "keywords": ["yếu tố nước ngoài", "người nước ngoài", "người ngoại quốc", "lấy chồng đài loan", "lấy vợ nước ngoài", "quốc tịch khác"],
+            "response": "Trường hợp ĐĂNG KÝ KẾT HÔN CÓ YẾU TỐ NƯỚC NGOÀI: Thời hạn giải quyết là 5 ngày[cite: 21]. Lệ phí thực hiện được miễn phí[cite: 21]. Hồ sơ yêu cầu:\n1. Tờ khai đăng ký kết hôn[cite: 21].\n2. Bản sao hộ chiếu/giấy tờ có giá trị thay thế hộ chiếu của người nước ngoài[cite: 21].\n3. Giấy tờ chứng minh tình trạng hôn nhân của người nước ngoài do cơ quan có thẩm quyền cấp, xác nhận hiện tại không có vợ/chồng hoặc đủ điều kiện kết hôn[cite: 21].\n4. Giấy xác nhận của tổ chức y tế xác nhận các bên không mắc bệnh tâm thần hoặc bệnh khác mà không có khả năng nhận thức, làm chủ hành vi[cite: 21]."
+        },
+        {
+            "keywords": ["ghi chú kết hôn", "đã kết hôn ở nước ngoài", "ghi vào sổ hộ tịch việc kết hôn", "công nhận kết hôn"],
+            "response": "Trường hợp GHI VÀO SỔ HỘ TỊCH VIỆC KẾT HÔN ĐÃ GIẢI QUYẾT Ở NƯỚC NGOÀI: Thời hạn giải quyết là 5 ngày[cite: 22]. Thủ tục này được miễn lệ phí[cite: 22]. Hồ sơ cần chuẩn bị:\n1. Tờ khai ghi chú kết hôn[cite: 22].\n2. Bản sao giấy tờ chứng nhận việc kết hôn do cơ quan có thẩm quyền của nước ngoài cấp[cite: 22].\n3. Trích lục ghi chú ly hôn (trường hợp công dân Việt Nam đã ly hôn hoặc hủy việc kết hôn tại cơ quan có thẩm quyền nước ngoài trước đó)[cite: 22]."
+        },
+        {
+            "keywords": ["ghi chú ly hôn", "đã ly hôn ở nước ngoài", "ly dị nước ngoài", "ghi vào sổ việc ly hôn", "hủy việc kết hôn"],
+            "response": "Trường hợp GHI VÀO SỔ HỘ TỊCH VIỆC LY HÔN ĐÃ GIẢI QUYẾT Ở NƯỚC NGOÀI: Thời hạn giải quyết là 5 ngày[cite: 20]. Việc ghi chú này được miễn lệ phí[cite: 20]. Hồ sơ yêu cầu:\n1. Tờ khai ghi chú ly hôn[cite: 20].\n2. Bản sao Bản án, quyết định ly hôn, hủy kết hôn, văn bản thỏa thuận ly hôn hoặc giấy tờ khác công nhận việc ly hôn do cơ quan có thẩm quyền của nước ngoài cấp đã có hiệu lực pháp luật[cite: 20]."
+        },
+        {
+            "keywords": ["đại sứ quán", "lãnh sự quán", "cơ quan đại diện ngoại giao", "tạm trú ở nước ngoài", "cư trú ở nước ngoài", "kết hôn ở nước ngoài"],
+            "response": "Trường hợp ĐĂNG KÝ KẾT HÔN TẠI CƠ QUAN ĐẠI DIỆN NGOẠI GIAO (Dành cho công dân Việt Nam tạm trú/cư trú ở nước ngoài): Thời hạn giải quyết là 13 ngày làm việc[cite: 23]. Lệ phí thực hiện là 70 VNĐ[cite: 23]. Hồ sơ cần chuẩn bị bao gồm:\n1. Tờ khai đăng ký kết hôn[cite: 23].\n2. Giấy tờ chứng minh tình trạng hôn nhân của công dân Việt Nam và của người nước ngoài (nếu có)[cite: 23].\n3. Giấy xác nhận của tổ chức y tế có thẩm quyền xác nhận không mắc bệnh tâm thần hoặc bệnh khác không có khả năng nhận thức, làm chủ hành vi[cite: 23].\n4. Xuất trình Hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, thẻ căn cước công dân[cite: 23]."
+        },
+        {
+            "keywords": ["ghi chú ly hôn ở nước ngoài", "đại sứ quán ghi chú ly hôn", "lãnh sự quán ghi chú ly hôn", "ly hôn ở nước ngoài", "công nhận ly hôn"],
+            "response": "Trường hợp GHI VÀO SỔ HỘ TỊCH VIỆC LY HÔN TẠI CƠ QUAN ĐẠI DIỆN NGOẠI GIAO: Thời hạn giải quyết là 5 ngày làm việc (trường hợp cần xác minh thì không quá 10 ngày)[cite: 24]. Lệ phí thực hiện là 20 VNĐ[cite: 24]. Bạn cần chuẩn bị hồ sơ gồm:\n1. Tờ khai ghi chú ly hôn[cite: 24].\n2. Bản sao Bản án, quyết định ly hôn/hủy kết hôn, văn bản thỏa thuận ly hôn hoặc giấy tờ khác công nhận việc ly hôn do cơ quan có thẩm quyền của nước ngoài cấp đã có hiệu lực pháp luật[cite: 24].\n3. Xuất trình hộ chiếu, chứng minh nhân dân/thẻ căn cước công dân để chứng minh nhân thân[cite: 24]."
+        },
+        {
+            "keywords": ["khu vực biên giới", "biên giới", "người láng giềng", "kết hôn với người nước láng giềng", "kết hôn ở biên giới"],
+            "response": "Trường hợp ĐĂNG KÝ KẾT HÔN CÓ YẾU TỐ NƯỚC NGOÀI TẠI KHU VỰC BIÊN GIỚI: Việc này do Ủy ban Nhân dân cấp Xã thực hiện[cite: 25]. Thời hạn giải quyết là 3 ngày[cite: 25]. Thủ tục được hoàn toàn miễn phí[cite: 25]. Hồ sơ yêu cầu:\n1. Tờ khai đăng ký kết hôn[cite: 25].\n2. Bản sao giấy tờ chứng minh nhân thân, giấy tờ chứng minh nơi thường trú ở khu vực biên giới của công dân nước láng giềng[cite: 25].\n3. Giấy tờ do cơ quan có thẩm quyền của nước láng giềng cấp không quá 06 tháng xác nhận hiện tại không có vợ hoặc không có chồng[cite: 25]."
+        },
+        {
+            "keywords": ["kết hôn lưu động", "kết hôn tại nhà", "đăng ký kết hôn lưu động", "tại nhà", "không đi được", "già yếu"],
+            "response": "Trường hợp ĐĂNG KÝ KẾT HÔN LƯU ĐỘNG: Cán bộ tư pháp - hộ tịch sẽ đến trực tiếp tại địa điểm đăng ký lưu động để hỗ trợ[cite: 26]. Thời gian giải quyết là 5 ngày làm việc[cite: 26]. Thủ tục này được miễn phí[cite: 26]. Người dân cần chuẩn bị:\n1. Tờ khai đăng ký kết hôn[cite: 26].\n2. Xuất trình giấy tờ tùy thân (Hộ chiếu/Thẻ căn cước công dân/Giấy chứng nhận căn cước) và giấy tờ chứng minh nơi cư trú[cite: 26]."
+        }
+    ]
+}

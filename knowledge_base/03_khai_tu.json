@@ -1,0 +1,29 @@
+{
+    "thu_tuc": "Nhóm thủ tục Đăng ký khai tử và các nghiệp vụ liên quan",
+    "intents": [
+        {
+            "keywords": ["trong nước", "bình thường", "thủ tục đăng ký khai tử", "giấy báo tử", "hồ sơ", "cần gì", "chuẩn bị"],
+            "response": "Trường hợp ĐĂNG KÝ KHAI TỬ THÔNG THƯỜNG: Thời gian giải quyết là 1 ngày làm việc[cite: 30]. Thủ tục này được miễn lệ phí[cite: 30]. Bạn cần chuẩn bị:\n1. Tờ khai đăng ký khai tử[cite: 30].\n2. Giấy báo tử hoặc giấy tờ thay thế Giấy báo tử do cơ quan có thẩm quyền cấp[cite: 30].\n3. Văn bản ủy quyền (nếu có)[cite: 30].\n4. Xuất trình Hộ chiếu/Thẻ căn cước công dân và giấy tờ chứng minh nơi cư trú cuối cùng của người chết[cite: 30]."
+        },
+        {
+            "keywords": ["lưu động", "tại nhà", "neo đơn", "già yếu", "không đi được"],
+            "response": "Trường hợp ĐĂNG KÝ KHAI TỬ LƯU ĐỘNG: Cán bộ tư pháp - hộ tịch sẽ đến trực tiếp nhà riêng hoặc địa điểm tổ chức lưu động để hỗ trợ[cite: 29]. Thời gian giải quyết là 5 ngày làm việc[cite: 29]. Thủ tục này được miễn phí[cite: 29]. Người dân cần điền Tờ khai đăng ký khai tử và nộp Giấy báo tử/giấy tờ thay thế[cite: 29]."
+        },
+        {
+            "keywords": ["yếu tố nước ngoài", "người nước ngoài", "người ngoại quốc", "biên giới", "mất ở Việt Nam"],
+            "response": "Trường hợp ĐĂNG KÝ KHAI TỬ CÓ YẾU TỐ NƯỚC NGOÀI HOẶC TẠI KHU VỰC BIÊN GIỚI: Ủy ban Nhân dân cấp Xã có thẩm quyền tiếp nhận[cite: 31, 32]. Thời gian giải quyết là 1 ngày[cite: 31, 32]. Thủ tục được miễn lệ phí[cite: 31, 32]. Hồ sơ bao gồm: Tờ khai đăng ký khai tử, Giấy báo tử/giấy tờ thay thế và giấy tờ chứng minh nơi cư trú cuối cùng của người chết[cite: 31, 32]."
+        },
+        {
+            "keywords": ["đăng ký lại", "mất giấy khai tử", "cấp lại bản chính", "thất lạc giấy", "hư hỏng"],
+            "response": "Trường hợp ĐĂNG KÝ LẠI KHAI TỬ (Bao gồm trong nước và có yếu tố nước ngoài): Áp dụng khi mất giấy tờ gốc. Thời gian giải quyết là 5 ngày làm việc[cite: 33, 34]. Việc này được miễn phí[cite: 33, 34]. Cần nộp Tờ khai đăng ký lại khai tử và Bản sao Giấy chứng tử trước đây được cấp hợp lệ hoặc bản sao hồ sơ liên quan có nội dung chứng minh sự kiện chết[cite: 33, 34]."
+        },
+        {
+            "keywords": ["ghi chú khai tử", "đã khai tử ở nước ngoài", "ghi vào sổ hộ tịch việc khai tử", "công nhận khai tử"],
+            "response": "Trường hợp GHI VÀO SỔ HỘ TỊCH VIỆC KHAI TỬ ĐÃ GIẢI QUYẾT Ở NƯỚC NGOÀI: Ủy ban Nhân dân cấp Xã giải quyết trong 1 ngày làm việc[cite: 35]. Thủ tục được miễn lệ phí[cite: 35]. Hồ sơ yêu cầu: Tờ khai ghi vào Sổ hộ tịch việc khai tử và Bản sao giấy tờ chứng minh việc hộ tịch đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài[cite: 35]."
+        },
+        {
+            "keywords": ["đại sứ quán", "lãnh sự quán", "cơ quan đại diện ngoại giao", "cư trú ở nước ngoài", "mất ở nước ngoài"],
+            "response": "Trường hợp KHAI TỬ TẠI CƠ QUAN ĐẠI DIỆN NGOẠI GIAO (Dành cho công dân VN ở nước ngoài): Xử lý ngay trong ngày (hoặc 15 giờ), trường hợp cần xác minh thì không quá 3 ngày[cite: 27, 28]. Lệ phí đăng ký khai tử là 5 VNĐ[cite: 27], lệ phí ghi chú hộ tịch từ 10 - 20 VNĐ[cite: 28]. Cần nộp Tờ khai và Giấy báo tử/giấy tờ thay thế do cơ quan có thẩm quyền nước ngoài cấp[cite: 27, 28]."
+        }
+    ]
+}

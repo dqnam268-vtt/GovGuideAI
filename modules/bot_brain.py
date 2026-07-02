@@ -5,12 +5,25 @@ import requests
 # Link Google Apps Script từ file index của bạn
 GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzi8UZVwXnrY_8AEBnwbLUAxEAz6xzeDAJP24kO8wBd9c5g0mdmhx6Qpg0JQkNJuCOg/exec"
 
+import glob # Khai báo thêm thư viện glob ở đầu file
+
 def load_knowledge():
-    """Nạp thành phần kiến thức từ các file JSON."""
-    knowledge_path = os.path.join(os.path.dirname(__file__), '..', 'knowledge_base', '01_khai_sinh.json')
+    """Quét và nạp tất cả thành phần kiến thức từ thư mục knowledge_base."""
+    knowledge_dir = os.path.join(os.path.dirname(__file__), '..', 'knowledge_base')
+    combined_data = {
+        "thu_tuc": "Các thủ tục Hành chính công (Khai sinh, Kết hôn...)",
+        "intents": []
+    }
+    
     try:
-        with open(knowledge_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        # Tìm tất cả các file .json trong thư mục
+        for file_path in glob.glob(os.path.join(knowledge_dir, '*.json')):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                # Gộp mảng intents của các file lại với nhau
+                if 'intents' in data:
+                    combined_data['intents'].extend(data['intents'])
+        return combined_data
     except Exception as e:
         return None
 
