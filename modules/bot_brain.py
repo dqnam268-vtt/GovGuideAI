@@ -36,7 +36,7 @@ def get_response(user_message):
 1. CHỈ ĐƯỢC PHÉP trả lời dựa trên nội dung trong [THÀNH PHẦN KIẾN THỨC CẤP PHÉP].
 2. Tuyệt đối KHÔNG sáng tạo, KHÔNG lấy luật bên ngoài để trả lời.
 3. Nếu câu hỏi hỏi về thủ tục khác (Kết hôn, Đất đai...) hoặc thông tin không có trong tài liệu trên, BẮT BUỘC trả lời: "Xin lỗi, hiện tại tôi chỉ được cung cấp dữ liệu về thủ tục {data['thu_tuc']}. Vui lòng liên hệ trực tiếp Bộ phận Một cửa để được hỗ trợ thủ tục này."
-4. Cuối mỗi câu trả lời thành công, luôn khuyên người dân: "💡 Gợi ý: Bạn có thể nộp hồ sơ trực tuyến toàn trình tại [Cổng DVC Phường Sài Gòn](#) để tiết kiệm thời gian nhé."
+4. Cuối mỗi câu trả lời thành công, luôn khuyên người dân: "💡 Gợi ý: Bạn có thể nộp hồ sơ trực tuyến toàn trình tại [Cổng DVC Quốc Gia](https://dichvucong.gov.vn/) để tiết kiệm thời gian nhé."
 5. Trình bày thân thiện, ngắn gọn, dùng Markdown."""
 
     # 3. Đóng gói Payload gửi lên API (Đúng chuẩn action: 'solve' của bạn)
