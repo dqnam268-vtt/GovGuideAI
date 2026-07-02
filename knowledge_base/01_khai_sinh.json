@@ -1,0 +1,22 @@
+{
+    "thu_tuc": "Đăng ký khai sinh",
+    "intents": [
+        {
+            "keywords": ["giấy tờ", "hồ sơ", "chuẩn bị gì", "cần gì", "mang theo"],
+            "response": "Để đăng ký khai sinh, bạn cần chuẩn bị các giấy tờ sau:\n1. Tờ khai đăng ký khai sinh (theo mẫu).\n2. Bản chính Giấy chứng sinh (do Bệnh viện cấp).\n3. CCCD/CMND của người đi đăng ký.\n4. Giấy chứng nhận kết hôn của cha mẹ (nếu có)."
+        },
+        {
+            "keywords": ["bao lâu", "thời gian", "mấy ngày", "khi nào xong"],
+            "response": "Thời gian giải quyết thủ tục đăng ký khai sinh là **ngay trong ngày làm việc**. Trường hợp nhận hồ sơ sau 15h00 mà không giải quyết được ngay thì sẽ trả kết quả trong ngày làm việc tiếp theo."
+        },
+        {
+            "keywords": ["lệ phí", "bao nhiêu tiền", "đóng phí", "tốn tiền"],
+            "response": "Thủ tục đăng ký khai sinh đúng hạn được **Miễn lệ phí** hoàn toàn bạn nhé."
+        },
+        {
+            "keywords": ["trực tuyến", "online", "web", "internet", "không muốn đến", "làm ở nhà"],
+            "response": "Tin vui là bạn không cần đến trực tiếp Ủy ban! Bạn có thể nộp hồ sơ trực tuyến toàn trình tại đường link sau: [🔗 Cổng DVC Phường Sài Gòn - Khai sinh](#). Hãy chuẩn bị bản chụp các giấy tờ để đính kèm nhé!"
+        }
+    ],
+    "default_response": "Dạ, hệ thống hiểu bạn đang hỏi về thủ tục Khai sinh. Bạn có thể nói rõ hơn bạn muốn biết về: **Hồ sơ cần chuẩn bị**, **Thời gian giải quyết**, hay **Lệ phí** không ạ?"
+}
