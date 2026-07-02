@@ -1,26 +1,73 @@
 {
-    "thu_tuc": "Đăng ký khai sinh",
+    "thu_tuc": "Nhóm thủ tục Đăng ký khai sinh và các nghiệp vụ liên quan",
     "intents": [
         {
             "keywords": ["giấy tờ", "hồ sơ", "chuẩn bị", "cần gì", "mang theo", "những gì", "chứng từ", "thủ tục gồm"],
-            "response": "Để đăng ký khai sinh, bạn cần chuẩn bị các hồ sơ sau:\n1. Tờ khai đăng ký khai sinh (theo mẫu).\n2. Bản chính Giấy chứng sinh (do Bệnh viện cấp).\n3. CCCD/CMND của người đi đăng ký.\n4. Giấy chứng nhận kết hôn của cha mẹ (nếu có)."
+            "response": "Trường hợp ĐĂNG KÝ KHAI SINH THÔNG THƯỜNG (Trong nước): Bạn cần chuẩn bị:\n1. Tờ khai đăng ký khai sinh (theo mẫu).\n2. Bản chính Giấy chứng sinh (do Bệnh viện/Trạm y tế cấp).\n3. CCCD/CMND của người đi đăng ký để xuất trình.\n4. Giấy chứng nhận kết hôn của cha mẹ (nếu có)."
+        },
+        {
+            "keywords": ["liên thông", "3 trong 1", "bảo hiểm y tế", "bhyt", "thường trú", "nhập khẩu", "nhập hộ khẩu"],
+            "response": "Trường hợp LIÊN THÔNG (Khai sinh + Thường trú + Cấp thẻ BHYT trẻ em): Đây là gói dịch vụ 3 trong 1. Ngoài hồ sơ khai sinh thông thường, bạn cần điền thêm Tờ khai thay đổi thông tin cư trú (để nhập khẩu cho bé) và Tờ khai tham gia bảo hiểm y tế. Thủ tục này được khuyến khích nộp trực tuyến toàn trình để tiết kiệm thời gian."
+        },
+        {
+            "keywords": ["nước ngoài", "người ngoại quốc", "người nước ngoài", "đài loan", "hàn quốc", "mỹ", "yếu tố nước ngoài"],
+            "response": "Trường hợp KHAI SINH CÓ YẾU TỐ NƯỚC NGOÀI (Cha hoặc mẹ là người nước ngoài): \n- Thẩm quyền: Vui lòng lưu ý, Ủy ban nhân dân cấp Phường/Xã KHÔNG có thẩm quyền giải quyết. Bạn phải nộp hồ sơ tại **Ủy ban nhân dân cấp Quận/Huyện**.\n- Hồ sơ cần thêm: Hộ chiếu của người nước ngoài, Văn bản thỏa thuận chọn quốc tịch cho con (nếu chọn quốc tịch nước ngoài phải có xác nhận của Đại sứ quán), và các giấy tờ do nước ngoài cấp phải được hợp pháp hóa lãnh sự và dịch thuật công chứng."
+        },
+        {
+            "keywords": ["đăng ký lại", "mất giấy", "mất bản gốc", "làm lại", "rách", "hư hỏng", "thất lạc"],
+            "response": "Trường hợp ĐĂNG KÝ LẠI KHAI SINH (Do mất bản gốc và mất sổ hộ tịch gốc): Bạn cần chuẩn bị:\n1. Tờ khai đăng ký lại khai sinh.\n2. Bản sao toàn bộ hồ sơ, giấy tờ cá nhân có thông tin về nơi sinh, ngày tháng năm sinh (như CMND/CCCD, Hộ khẩu cũ, Bằng tốt nghiệp...).\n3. Bản cam đoan về việc đã mất giấy tờ."
+        },
+        {
+            "keywords": ["trích lục", "bản sao", "sao y", "xin thêm", "photo", "cấp lại bản sao"],
+            "response": "Trường hợp CẤP BẢN SAO TRÍCH LỤC KHAI SINH: Nếu bạn chỉ cần bản sao (trích lục) từ sổ gốc, bạn chỉ cần xuất trình CCCD/CMND và điền Tờ khai cấp bản sao trích lục hộ tịch. Lệ phí cấp bản sao là 8.000 đồng/bản. Có thể lấy kết quả ngay trong ngày."
+        },
+        {
+            "keywords": ["lưu động", "tại nhà", "khuyết tật", "già yếu", "không đi được"],
+            "response": "Trường hợp ĐĂNG KÝ KHAI SINH LƯU ĐỘNG: Dành cho công dân khuyết tật, ốm đau không thể đi lại được hoặc vùng sâu vùng xa. Cán bộ tư pháp - hộ tịch sẽ đến tận nhà hoặc địa bàn khu dân cư để trực tiếp hướng dẫn và tiếp nhận hồ sơ."
         },
         {
             "keywords": ["bao lâu", "thời gian", "mấy ngày", "khi nào xong", "lấy liền", "chờ lâu không"],
-            "response": "Thời gian giải quyết thủ tục đăng ký khai sinh là **ngay trong ngày làm việc**. Trường hợp nhận hồ sơ sau 15h00 mà không giải quyết được ngay thì sẽ trả kết quả trong ngày làm việc tiếp theo."
+            "response": "THỜI GIAN GIẢI QUYẾT:\n- Khai sinh thông thường / Trích lục: Giải quyết ngay trong ngày làm việc.\n- Liên thông 3 trong 1: Không quá 15 ngày làm việc.\n- Đăng ký lại / Yếu tố nước ngoài: Có thể mất từ 5 - 20 ngày làm việc để xác minh."
         },
         {
             "keywords": ["lệ phí", "bao nhiêu tiền", "đóng phí", "tốn tiền", "mất phí", "tiền"],
-            "response": "Thủ tục đăng ký khai sinh đúng hạn được **Miễn lệ phí** hoàn toàn bạn nhé."
+            "response": "LỆ PHÍ THỦ TỤC:\n- Đăng ký khai sinh mới (kể cả liên thông đúng hạn): Miễn lệ phí.\n- Cấp bản sao trích lục: 8.000 đồng/bản.\n- Đăng ký lại khai sinh / Yếu tố nước ngoài: Áp dụng mức thu theo quy định của HĐND cấp tỉnh/thành phố."
         },
         {
             "keywords": ["ở đâu", "nơi nộp", "địa điểm", "phòng nào", "chỗ nào"],
-            "response": "Bạn có thể nộp hồ sơ trực tiếp tại **Bộ phận Tiếp nhận và Trả kết quả (Một cửa)** của Ủy ban nhân dân Phường Sài Gòn."
+            "response": "ĐỊA ĐIỂM TIẾP NHẬN:\n- Các thủ tục trong nước: Nộp tại Bộ phận Một cửa - UBND Phường Sài Gòn.\n- Có yếu tố nước ngoài: Nộp tại Bộ phận Một cửa - UBND cấp Quận/Huyện."
+        },
+	{
+            "keywords": ["đã lớn", "có hồ sơ", "người lớn", "khai sinh trễ", "quá hạn", "chưa khai sinh bao giờ", "chưa từng đăng ký"],
+            "response": "Trường hợp ĐĂNG KÝ KHAI SINH CHO NGƯỜI ĐÃ CÓ HỒ SƠ, GIẤY TỜ CÁ NHÂN: Thủ tục này do Ủy ban Nhân dân xã, phường, thị trấn tiếp nhận[cite: 2]. Thời gian giải quyết là 5 ngày [cite: 42] và hoàn toàn miễn phí[cite: 42]. Hồ sơ bạn cần chuẩn bị bao gồm:\n1. Tờ khai đăng ký khai sinh[cite: 39].\n2. Văn bản cam đoan của người yêu cầu về việc chưa được đăng ký khai sinh[cite: 32].\n3. Bản sao toàn bộ hồ sơ, giấy tờ cá nhân có thông tin liên quan đến nội dung khai sinh (như Chứng minh nhân dân/Thẻ căn cước công dân/Hộ chiếu, giấy tờ chứng minh nơi cư trú, Bằng tốt nghiệp...)[cite: 33]."
         },
         {
-            "keywords": ["trực tuyến", "online", "web", "internet", "không muốn đến", "làm ở nhà", "qua mạng"],
-            "response": "Bạn hoàn toàn có thể nộp hồ sơ trực tuyến toàn trình tại đường link sau: [🔗 Cổng DVC Phường Sài Gòn - Khai sinh](#). Hãy chuẩn bị bản chụp/scan các giấy tờ gốc để đính kèm nhé!"
+            "keywords": ["liên thông", "bảo hiểm y tế", "bhyt", "cấp thẻ bảo hiểm", "dưới 6 tuổi", "2 trong 1"],
+            "response": "Trường hợp LIÊN THÔNG KHAI SINH VÀ CẤP BẢO HIỂM Y TẾ: Thời hạn giải quyết cho thủ tục liên thông này tối đa không quá 15 ngày làm việc [cite: 73] và được miễn phí[cite: 73]. Bạn cần chuẩn bị các hồ sơ sau:\n1. Tờ khai tham gia bảo hiểm y tế (Danh sách đề nghị cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi)[cite: 71].\n2. Tờ khai đăng ký khai sinh[cite: 71].\n3. Giấy chứng sinh do cơ sở y tế cấp (hoặc văn bản xác nhận của người làm chứng, giấy cam đoan, biên bản trẻ bị bỏ rơi)[cite: 71]."
+        },
+	{
+            "keywords": ["nhận cha mẹ con", "kết hợp", "adn", "giám định", "ngoài giá thú", "chưa đăng ký kết hôn"],
+            "response": "Trường hợp ĐĂNG KÝ KHAI SINH KẾT HỢP NHẬN CHA, MẸ, CON CÓ YẾU TỐ NƯỚC NGOÀI: Thời hạn giải quyết thủ tục là 10 ngày[cite: 8]. Thủ tục này được miễn lệ phí[cite: 8]. Hồ sơ bạn cần chuẩn bị bao gồm:\n1. Tờ khai đăng ký nhận cha, mẹ, con và Tờ khai đăng ký khai sinh[cite: 8].\n2. Giấy chứng sinh[cite: 8].\n3. Văn bản của cơ quan y tế, giám định xác nhận quan hệ cha con, mẹ con[cite: 8].\n4. Văn bản thỏa thuận lựa chọn quốc tịch cho con đối với trường hợp có yếu tố nước ngoài[cite: 8]."
+        },
+        {
+            "keywords": ["lưu động", "tại nhà", "khuyết tật", "già yếu", "không đi được", "đi lại khó khăn"],
+            "response": "Trường hợp ĐĂNG KÝ KHAI SINH LƯU ĐỘNG: Ủy ban nhân dân cấp xã sẽ cử công chức tư pháp - hộ tịch đến trực tiếp tại nhà riêng hoặc địa điểm tổ chức lưu động để hỗ trợ[cite: 9]. Thời gian giải quyết là 5 ngày làm việc[cite: 9]. Thủ tục này được miễn phí[cite: 9]. Bạn cần chuẩn bị:\n1. Bản chính Giấy chứng sinh, hoặc văn bản của người làm chứng/giấy cam đoan về việc sinh[cite: 9].\n2. Tờ khai đăng ký khai sinh[cite: 9]."
+        },
+        {
+            "keywords": ["đăng ký lại", "mất giấy khai sinh", "mất bản gốc", "hư hỏng giấy", "trước năm 1945", "trước năm 1975"],
+            "response": "Trường hợp ĐĂNG KÝ LẠI KHAI SINH (Bao gồm cả trong nước và có yếu tố nước ngoài): Áp dụng khi bị mất bản chính giấy khai sinh. Thời hạn giải quyết là 5 ngày[cite: 12, 13]. Thủ tục được miễn lệ phí[cite: 12, 13]. Hồ sơ bao gồm:\n1. Tờ khai đăng ký lại khai sinh[cite: 12, 13].\n2. Bản sao Giấy khai sinh do cơ quan có thẩm quyền cấp hợp lệ hoặc giấy tờ thay thế cấp trước 1945/1975 (nếu có)[cite: 12, 13].\n3. Bản sao giấy tờ cá nhân như CMND, Thẻ CCCD, Hộ chiếu, Bằng tốt nghiệp...[cite: 12, 13]."
+        },
+        {
+            "keywords": ["yếu tố nước ngoài", "người nước ngoài", "người ngoại quốc", "cha là người nước ngoài", "mẹ là người nước ngoài", "quốc tịch khác"],
+            "response": "Trường hợp ĐĂNG KÝ KHAI SINH CÓ YẾU TỐ NƯỚC NGOÀI: Thời hạn giải quyết là 1 ngày[cite: 14]. Thủ tục này được miễn phí[cite: 14]. Hồ sơ bạn cần nộp gồm:\n1. Giấy chứng sinh[cite: 14].\n2. Tờ khai đăng ký khai sinh[cite: 14].\n3. Văn bản thỏa thuận của cha, mẹ về việc lựa chọn quốc tịch cho con[cite: 14].\n4. Giấy tờ chứng minh trẻ nhập cảnh hợp pháp (hộ chiếu, dấu xác nhận nhập cảnh) nếu trẻ sinh ra ở nước ngoài[cite: 14]."
+        },
+        {
+            "keywords": ["ghi chú khai sinh", "ghi vào sổ hộ tịch", "đã khai sinh ở nước ngoài", "đại sứ quán", "lãnh sự quán"],
+            "response": "Trường hợp GHI VÀO SỔ HỘ TỊCH VIỆC KHAI SINH ĐÃ GIẢI QUYẾT Ở NƯỚC NGOÀI: Thời hạn giải quyết là 1 ngày[cite: 15]. Bạn được miễn lệ phí[cite: 15]. Hồ sơ yêu cầu:\n1. Tờ khai ghi vào Sổ hộ tịch việc khai sinh[cite: 15].\n2. Bản sao giấy tờ chứng minh việc hộ tịch đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài[cite: 15]."
+        },
+        {
+            "keywords": ["trích lục", "bản sao", "sao y", "xin thêm", "photo", "cấp lại bản sao"],
+            "response": "Trường hợp CẤP BẢN SAO TRÍCH LỤC KHAI SINH: Lệ phí cấp bản sao là 8.000 VNĐ[cite: 16]. Bạn cần chuẩn bị:\n1. Tờ khai đề nghị bản sao Trích lục hộ tịch[cite: 16].\n2. Xuất trình Hộ chiếu/Thẻ căn cước công dân/Giấy chứng nhận căn cước để chứng minh nhân thân[cite: 16].\n3. Văn bản ủy quyền (nếu có nhờ người khác đi làm thay)[cite: 16]."
         }
-    ],
-    "default_response": "Dạ, hệ thống hiểu bạn đang hỏi về thủ tục Khai sinh. Bạn có thể nói rõ hơn bạn muốn biết về: **Hồ sơ cần chuẩn bị**, **Thời gian**, **Lệ phí** hay **Nơi nộp** không ạ?"
+    ]
 }
